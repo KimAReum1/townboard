@@ -1,0 +1,416 @@
+#wrap {
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 375px;
+    background: url(../images/news-1172463_1920.jpg) no-repeat 50% 0;
+}
+
+
+
+/* ----------------------헤드영역--------------------------- */
+#header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+
+
+}
+
+#header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 90px;
+}
+
+#header .logo img {}
+
+
+#header .nav {
+    margin-left: 475px;
+    width: 580px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .nav li {}
+
+#header .nav a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#header .info_m1 {
+    margin-left: 150px;
+    width: 220px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .info_m1 li {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background-color: crimson;
+    border-radius: 50px;
+
+}
+
+#header .info_m1 li:last-child {
+    background-color: rgb(0, 0, 0);
+}
+
+#header .info_m1 a {
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#header .info_m2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 160px;
+    height: 90px;
+    margin-left: 40px;
+}
+
+#header .info_m2 img {
+    width: 30px;
+    height: 30px;
+}
+
+#header .info_m2 .btn_m {
+    display: block;
+    width: 25px;
+    height: 20px;
+}
+
+#header .info_m2 span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #555;
+    border-radius: 9px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+#header .info_m2 span:nth-child(2) {
+    width: 15px
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------메인 텍스트 영역 -------------------------------*/
+
+#ttl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    color: #fff;
+}
+
+#ttl span {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#ttl p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* -----------------콘텐츠 영역-------------------------- */
+
+#contents {
+    width: 100%;
+    height: 1150px;
+}
+
+#contents_in {
+    margin: 0 auto;
+    width: 1310px;
+    height: 1150px;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+#contents_in .contents_h {
+    margin: 0 auto;
+    width: 790px;
+    height: 50px;
+
+}
+
+#contents_in .contents_h ul {
+    display: flex;
+    justify-content: space-between;
+    width: 790px;
+    height: 50px;
+}
+
+#contents_in .contents_h box1 {}
+
+#contents_in .contents_h select {
+    width: 143px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#contents_in .contents_h option {}
+
+#contents_in .contents_h .box2 {}
+
+#contents_in .contents_h input {
+    width: 450px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#contents_in .contents_h .box3 {}
+
+#contents_in .contents_h a {
+    display: block;
+    width: 120px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(218, 58, 58);
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#contents_in .contents_h img {
+    line-height: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+#contents_in .contents_b {
+    margin: 0 auto;
+    width: 1125px;
+    height: 605px;
+}
+
+#contents_in .contents_b .txt_h {
+    font-size: 18px;
+    margin-top: 90px;
+}
+
+#contents_in .contents_b .txt_h span {
+    font-weight: 600;
+    color: red;
+}
+
+#contents_in .contents_b ul {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    width: 1125px;
+    height: 435px;
+}
+
+#contents_in .contents_b li {
+    width: 360px;
+    height: 435px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+#contents_in .contents_b li>img {
+    width: 360px;
+    height: 260px;
+}
+
+#contents_in .contents_b li p {
+    margin: 35px 28px;
+    font-size: 16px;
+    color: black;
+    font-weight: 900;
+}
+
+#contents_in .contents_b li span {
+    margin-left: 25px;
+    font-size: 18px;
+    color: #ccc;
+    font-weight: 700;
+}
+
+#contents_in .contents_b li a {}
+
+#contents_in .contents_b a img {
+    margin-right: 25px;
+    float: right;
+    width: 20px;
+    height: 20px;
+    opacity: 0.2;
+}
+
+
+
+
+#contents_in .contents_f {
+    margin: 0 auto;
+    width: 228px;
+    height: 35px;
+}
+
+#contents_in .contents_f ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+}
+
+#contents_in .contents_f li {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+#contents_in .contents_f a {
+    line-height: 35px;
+    font-size: 18px;
+}
+
+
+#contents_in .contents_f p {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(209, 39, 39);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff
+}
+
+
+
+
+
+
+
+/* -----------------하단 영역------------------------ */
+#footer {
+    width: 100%;
+    height: 493px;
+    background-color: black;
+}
+
+#footer_in {
+    margin: 0 auto;
+    width: 1310px;
+    height: 493px;
+
+}
+
+#footer_in .menu {
+    margin: 0;
+    width: 365px;
+    height: 300px;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+#footer_in p {
+    margin-bottom: 22px;
+    width: 100%;
+    font-size: 24px;
+    color: #fff;
+}
+
+#footer_in p:last-child {
+    margin-bottom: 0px;
+}
+
+#footer_in .menu2 {
+    width: 100%;
+    height: 180px;
+}
+
+#footer_in .info_m {
+    float: left;
+    width: 365px;
+    height: 180px;
+}
+
+#footer_in .info_m p {
+    font-size: 16px;
+    color: rgba(221, 221, 149, 0.431);
+}
+
+#footer_in .info_m span {
+    font-size: 14px;
+    color: rgba(221, 221, 149, 0.431);
+}
+
+#footer_in ul {
+    float: right;
+    width: 300px;
+    height: 120px;
+}
+
+#footer_in ul li {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+#footer_in ul li:last-child {
+    border-bottom: 0px;
+}
+
+#footer_in ul li:first-child {
+    display: flex;
+}
+
+
+#footer_in ul li p {
+    float: left;
+    line-height: 60px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+#footer_in .menu2 img {
+    float: right;
+    margin-top: 21px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
